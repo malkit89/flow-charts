@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2021-02-21T09:45:41.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="l8JbP1qECsYh25PhvJf-" version="14.4.2" type="github" pages="2">
+  <diagram id="Ll6WYh6wNjLnJX-UNS3_" name="Moduli">
+    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xJPMfKroO-Cjm6Kqx-O--1" value="Sample codification" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJPMfKroO-Cjm6Kqx-O--3" value="Monitor ciclature" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="230" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJPMfKroO-Cjm6Kqx-O--4" value="Test report codification" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="60" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9scO0s7H7aC351lyy_pY" name="Oggetti">
+    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="EfSzlWRRT5XzAkkM_nJ9-0" />
+        <mxCell id="EfSzlWRRT5XzAkkM_nJ9-1" parent="EfSzlWRRT5XzAkkM_nJ9-0" />
+        <mxCell id="EfSzlWRRT5XzAkkM_nJ9-2" value="Definire qui i vari oggetti coinvolti nel programma" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-4" value="Test report contiene i campioni usate per le prove" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="100" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-7" value="Test report" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-8" value="Sample" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-9" value="Progetto" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-10" value="Ogni progetto è indentificato con codice univoco. Tutti i documenti associati al progetto, tramite il codice." style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="40" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-11" value="Le prove vengono eseguite su campioni" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="160" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-12" value="Prova" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-13" value="Ogni prova ha almeno documento di riferimento che indica i requisiti, modalità di esecuzione e criteri di accettabilità." style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="220" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-14" value="Documento" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-15" value="Documento è un contenitore generico, può avere diverse tipologie: Test report, Procedura, Norma, QP ecc..." style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="280" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-16" value="Equipment" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-17" value="Contenitore generico per indicare: Attrezzatura, Calibro." style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="340" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-18" value="Persona" style="whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="20" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrSu5tS_nTy-4twybfsI-19" value="Contenitore generico per indicare una persona. Possono essere diverse tipologie: Tecnico, Responsabile ecc" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelPosition=center;verticalLabelPosition=middle;strokeColor=#000000;dashed=1;" vertex="1" parent="EfSzlWRRT5XzAkkM_nJ9-1">
+          <mxGeometry x="130" y="400" width="350" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
